@@ -8,10 +8,14 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+    'Drops of rain were hitting the pane which made him quite sad.',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+    'I don't care an English Twopence for myself.',
   'example3':
+      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+  'example4':
+      'Buda-Pesth seems a wonderful place.',
+  'example5':
       'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
 };
 
