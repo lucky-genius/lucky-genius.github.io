@@ -10,7 +10,7 @@ const examples = {
   'example1':
     'Drops of rain were hitting the pane which made him quite sad.',
   'example2':
-    'I don't care an English Twopence for myself.',
+    "I don't care an English Twopence for myself.",
   'example3':
       'Alice was beginning to get very tired of sitting by her sister on the bank.',
   'example4':
