@@ -8,15 +8,15 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-    'Drops of rain were hitting the pane which made him quite sad.',
+    'all three were wrapped to the cheekbones and over the ears and wore jackboots',
   'example2':
-    "I don't care an English Twopence for myself.",
+    "how about if i sleep a little bit longer and forget all this nonsense he thought but that was something he was unable to do because he was used to sleeping on his right and in his present state couldnt get into that position",
   'example3':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'either the well was very deep or she fell very slowly for she had plenty of time as she went down to look about her and to wonder what was going to happen next',
   'example4':
-      'Buda-Pesth seems a wonderful place.',
+      'i trust      that your journey from london has been a happy one and that you      will enjoy your stay in my beautiful land',
   'example5':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'homer was the first fruit of her juvenile frailty and received the name of melesigenes from having been born near the river meles in boeotia whither critheis had been transported in order to save her reputation'      
 };
 
 function status(statusText) {
@@ -129,11 +129,12 @@ class Classifier {
     const inputBuffer = tf.buffer([1, this.maxLen], 'float32');
     for (let i = 0; i < inputText.length; ++i) {
       const word = inputText[i];
-      inputBuffer.set(this.wordIndex[word], 0, i);
+      inputBuffer.set(this.wordIndex[word], 0, this.maxLen - inputText.length + i);
       //console.log(word, this.wordIndex[word], inputBuffer);
     }
+    console.log(inputBuffer)
     const input = inputBuffer.toTensor();
-    //console.log(input);
+    console.log(input);
 
     status('Running inference');
     const beginMs = performance.now();
