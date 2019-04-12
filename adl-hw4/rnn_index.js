@@ -10,7 +10,7 @@ const examples = {
   'example1':
     'the coach lumbered on again with heavier wreaths of mist closing round it as it began the descent',
   'example2':
-    "the unfortunate little bill had left off writing on his slate with one finger as he found it made no mark but he now hastily began again using the ink that was trickling down his face as long as it lasted"
+    "the unfortunate little bill had left off writing on his slate with one finger as he found it made no mark but he now hastily began again using the ink that was trickling down his face as long as it lasted",
   'example3':
       'i fear that the boat is not any better for the accident the peasantry tell us that after she got upon smooth water again she kept stopping every now and again so long as she was in sight',
   'example4':
