@@ -16,7 +16,10 @@ const examples = {
   'example4':
       'i trust      that your journey from london has been a happy one and that you      will enjoy your stay in my beautiful land',
   'example5':
-      'homer was the first fruit of her juvenile frailty and received the name of melesigenes from having been born near the river meles in boeotia whither critheis had been transported in order to save her reputation'      
+      'homer was the first fruit of her juvenile frailty and received the name of melesigenes from having been born near the river meles in boeotia whither critheis had been transported in order to save her reputation',
+  'example6':
+      'but as i said     on lammas eve at night shall she be fourteen     that shall she marry i remember it well'
+   
 };
 
 function status(statusText) {
