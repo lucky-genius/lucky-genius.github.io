@@ -8,15 +8,17 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-    'all three were wrapped to the cheekbones and over the ears and wore jackboots',
+    'the coach lumbered on again with heavier wreaths of mist closing round it as it began the descent',
   'example2':
-    "how about if i sleep a little bit longer and forget all this nonsense he thought but that was something he was unable to do because he was used to sleeping on his right and in his present state couldnt get into that position",
+    "the unfortunate little bill had left off writing on his slate with one finger as he found it made no mark but he now hastily began again using the ink that was trickling down his face as long as it lasted"
   'example3':
-      'either the well was very deep or she fell very slowly for she had plenty of time as she went down to look about her and to wonder what was going to happen next',
+      'i fear that the boat is not any better for the accident the peasantry tell us that after she got upon smooth water again she kept stopping every now and again so long as she was in sight',
   'example4':
-      'i trust      that your journey from london has been a happy one and that you      will enjoy your stay in my beautiful land',
+      'four sprightly coursers with a deadly groan   pour forth their lives and on the pyre are thrown',
   'example5':
-      'homer was the first fruit of her juvenile frailty and received the name of melesigenes from having been born near the river meles in boeotia whither critheis had been transported in order to save her reputation'      
+      'homer was the first fruit of her juvenile frailty and received the name of melesigenes from having been born near the river meles in boeotia whither critheis had been transported in order to save her reputation',
+  'example6':
+      'but as i said     on lammas eve at night shall she be fourteen     that shall she marry i remember it well'
 };
 
 function status(statusText) {
