@@ -12,7 +12,7 @@ const examples = {
   'example2':
       'So many iournies may the Sunne and Moone Make vs againe count o re  ere loue be done .',
   'example3':
-       " 18 : 1 And the LORD said unto Aaron  Thou and thy sons and thy fathers house with thee shall bear the iniquity of the sanctuary : and thou and thy sons with thee shall bear the iniquity of your priesthood . "
+       " 18 : 1 And the LORD said unto Aaron  Thou and thy sons and thy fathers house with thee shall bear the iniquity of the sanctuary : and thou and thy sons with thee shall bear the iniquity of your priesthood . ",
   'example4':
       'He was the elected Xerxes of vast herds of wild horses  whose pastures in those days were only fenced by the Rocky Mountains and the Alleghanies .'      
 };
