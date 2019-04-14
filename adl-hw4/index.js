@@ -1,25 +1,20 @@
 
 const HOSTED_URLS = {
   model:
-      'lin_model_js/model.json',
+      'model_js/model.json',
   metadata:
-      'lin_model_js/metadata.json'
+      'model_js/metadata.json'
 };
 
 const examples = {
   'example1':
-    'all three were wrapped to the cheekbones and over the ears and wore jackboots',
+      'Jane did not look around .',
   'example2':
-    "how about if i sleep a little bit longer and forget all this nonsense he thought but that was something he was unable to do because he was used to sleeping on his right and in his present state couldnt get into that position",
+      'So many iournies may the Sunne and Moone Make vs againe count o re  ere loue be done .',
   'example3':
-      'either the well was very deep or she fell very slowly for she had plenty of time as she went down to look about her and to wonder what was going to happen next',
+       " 18 : 1 And the LORD said unto Aaron  Thou and thy sons and thy fathers house with thee shall bear the iniquity of the sanctuary : and thou and thy sons with thee shall bear the iniquity of your priesthood . "
   'example4':
-      'i trust      that your journey from london has been a happy one and that you      will enjoy your stay in my beautiful land',
-  'example5':
-      'homer was the first fruit of her juvenile frailty and received the name of melesigenes from having been born near the river meles in boeotia whither critheis had been transported in order to save her reputation',
-  'example6':
-      'but as i said     on lammas eve at night shall she be fourteen     that shall she marry i remember it well'
-   
+      'He was the elected Xerxes of vast herds of wild horses  whose pastures in those days were only fenced by the Rocky Mountains and the Alleghanies .'      
 };
 
 function status(statusText) {
@@ -132,12 +127,11 @@ class Classifier {
     const inputBuffer = tf.buffer([1, this.maxLen], 'float32');
     for (let i = 0; i < inputText.length; ++i) {
       const word = inputText[i];
-      inputBuffer.set(this.wordIndex[word], 0, this.maxLen - inputText.length + i);
+      inputBuffer.set(this.wordIndex[word], 0, i);
       //console.log(word, this.wordIndex[word], inputBuffer);
     }
-    console.log(inputBuffer)
     const input = inputBuffer.toTensor();
-    console.log(input);
+    //console.log(input);
 
     status('Running inference');
     const beginMs = performance.now();
